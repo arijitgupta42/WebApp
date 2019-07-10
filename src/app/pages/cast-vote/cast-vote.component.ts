@@ -35,6 +35,8 @@ export class CastVoteComponent implements OnInit {
 
 
     this.loginComponent.blockchainService.blockchainInstance.addBlock(this.newVt); 
+
+    console.log(this.loginComponent.blockchainService.blockchainInstance.isChainValid());
     
     this.newVt = new Block(); 	
 
