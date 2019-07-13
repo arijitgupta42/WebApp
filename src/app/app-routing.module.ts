@@ -10,9 +10,8 @@ import {LoginComponent} from './components/login/login.component';
 const routes: Routes = [
  {path: 'settings',component: SettingsComponent},
  {path: 'vote', component: CastVoteComponent}, 
- {path: 'login', component: LoginComponent },
  {path: 'blockchain', component : BlockchainViewerComponent },
- {path : '', component : LoginComponent} 
+ {path : '', component: BlockchainViewerComponent} 
 ];
 
 @NgModule({
